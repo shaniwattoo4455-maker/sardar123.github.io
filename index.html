@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="سردار محمد احمد بھڈال ایڈووکیٹ ہائی کورٹ">
+  <title>سردار محمد احمد بھڈال | ایڈووکیٹ ہائی کورٹ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#07182d;--gold:#d8ad45;--gold2:#f4d477;--white:#fff;--muted:#d7dde7}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:"Noto Naskh Arabic",serif;background:#f7f7f7;color:#142033;line-height:1.9}
+    nav{position:sticky;top:0;z-index:20;background:rgba(7,24,45,.97);border-bottom:1px solid #765c24}
+    .navin{max-width:1150px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
+    .brand{color:var(--gold2);font-size:22px;font-weight:700}
+    .links{display:flex;gap:22px;list-style:none}
+    .links a{color:white;text-decoration:none;font-weight:600}
+    .links a:hover{color:var(--gold2)}
+    .menu{display:none;background:none;border:0;color:white;font-size:28px}
+    .hero{background:radial-gradient(circle at 50% 0%,#17375e 0,#07182d 48%,#030b16 100%);color:#fff;padding:58px 20px 70px;text-align:center}
+    .hero img{width:min(290px,72vw);aspect-ratio:1;border-radius:50%;object-fit:cover;border:5px solid var(--gold);box-shadow:0 0 35px rgba(216,173,69,.35);margin-bottom:22px}
+    .welcome{font-size:25px;color:var(--gold2);font-weight:700;margin-bottom:8px}
+    h1{font-size:clamp(29px,5vw,48px);line-height:1.35}
+    .role{font-size:22px;color:#fff;margin:6px 0 18px}
+    .qualifications{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin:18px auto 28px;max-width:850px}
+    .pill{border:1px solid #9b7930;background:rgba(216,173,69,.09);padding:6px 16px;border-radius:30px;color:#f6e5ae}
+    .actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-block;text-decoration:none;padding:10px 22px;border-radius:30px;font-weight:700}
+    .whatsapp{background:#20c968;color:white}.call{background:var(--gold);color:#07182d}
+    section{max-width:1100px;margin:auto;padding:60px 20px}
+    .title{text-align:center;color:var(--navy);font-size:32px;margin-bottom:10px}
+    .line{width:75px;height:3px;background:var(--gold);margin:0 auto 28px}
+    .welcome-card{background:white;border-radius:18px;padding:28px;box-shadow:0 8px 30px rgba(0,0,0,.08);text-align:center;font-size:21px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:white;padding:25px;border-radius:15px;border-top:4px solid var(--gold);box-shadow:0 7px 22px rgba(0,0,0,.07);text-align:center}
+    .card h3{color:var(--navy);font-size:21px;margin-bottom:7px}
+    .contact{background:var(--navy);color:white;border-radius:22px;padding:35px;text-align:center}
+    .contact h2{color:var(--gold2)}
+    .number{font-family:Arial,sans-serif;font-size:27px;direction:ltr;display:inline-block;margin:15px 0}
+    footer{background:#030b16;color:#dce2ea;text-align:center;padding:22px 15px}
+    @media(max-width:760px){
+      .links{display:none;position:absolute;right:0;top:62px;background:var(--navy);width:100%;padding:15px 25px;flex-direction:column;gap:8px}
+      .links.show{display:flex}.menu{display:block}.grid{grid-template-columns:1fr}
+      .welcome{font-size:21px}.role{font-size:19px}.welcome-card{font-size:18px}
+    }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="navin">
+    <div class="brand">سردار محمد احمد بھڈال</div>
+    <button class="menu" onclick="document.querySelector('.links').classList.toggle('show')" aria-label="Menu">☰</button>
+    <ul class="links">
+      <li><a href="#home">ہوم</a></li>
+      <li><a href="#about">تعارف</a></li>
+      <li><a href="#qualifications">تعلیمی قابلیت</a></li>
+      <li><a href="#contact">رابطہ</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <img src="logo.png" alt="سردار محمد احمد بھڈال">
+  <div class="welcome">السلام علیکم</div>
+  <h1>سردار محمد احمد بھڈال</h1>
+  <div class="role">(ایڈووکیٹ ہائی کورٹ)</div>
+  <p>کی طرف سے خوش آمدید</p>
+  <div class="qualifications">
+    <span class="pill">ایم فل سوشیالوجی (گولڈ میڈلسٹ)</span>
+    <span class="pill">ایم اے سیاسیات</span>
+    <span class="pill">ایل ایل بی پنجاب</span>
+  </div>
+  <div class="actions">
+    <a class="btn whatsapp" href="https://wa.me/923008473545" target="_blank">WhatsApp پر رابطہ</a>
+    <a class="btn call" href="tel:+923008473545">کال کریں</a>
+  </div>
+</header>
+
+<section id="about">
+  <h2 class="title">خوش آمدید</h2><div class="line"></div>
+  <div class="welcome-card">
+    <p>السلام علیکم<br>
+    سردار محمد احمد بھڈال (ایڈووکیٹ ہائی کورٹ) کی طرف سے خوش آمدید۔</p>
+  </div>
+</section>
+
+<section id="qualifications">
+  <h2 class="title">تعلیمی قابلیت</h2><div class="line"></div>
+  <div class="grid">
+    <div class="card"><h3>ایم فل سوشیالوجی</h3><p>گولڈ میڈلسٹ</p></div>
+    <div class="card"><h3>ایم اے سیاسیات</h3><p>ماسٹرز اِن پولیٹیکل سائنس</p></div>
+    <div class="card"><h3>ایل ایل بی</h3><p>پنجاب</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="contact" id="contact">
+    <h2>رابطے کے لیے</h2>
+    <p>مزید معلومات یا قانونی مشاورت کے لیے براہِ راست رابطہ کریں۔</p>
+    <div class="number">03008473545</div><br>
+    <a class="btn whatsapp" href="https://wa.me/923008473545" target="_blank">WhatsApp</a>
+    <a class="btn call" href="tel:+923008473545">Call Now</a>
+  </div>
+</section>
+
+<footer>© 2026 سردار محمد احمد بھڈال — تمام حقوق محفوظ ہیں۔</footer>
+</body>
+</html>
